@@ -65,7 +65,10 @@ if ($conn->query($sql) === TRUE) {
 mysqli_close($conn);
 
 ?>
-
+	<form action = "index.php" style = "text-align:center"> <! style = "float:right">
+		
+		<input type = "submit" value = "Log In">
+	</form>
 </body>
 
 </HTML>
