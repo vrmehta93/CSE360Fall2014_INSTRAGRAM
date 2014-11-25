@@ -67,5 +67,8 @@ mysqli_close($conn);
 ?>
 
 </body>
-
+	<form action = "index.php" style = "text-align:center"> <! style = "float:right">
+		
+		<input type = "submit" value = "Log In">
+	</form>
 </HTML>
